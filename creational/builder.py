@@ -1,5 +1,22 @@
 from abc import ABC, abstractmethod
 
+"""
+What is the Builder Design Pattern?
+The Builder Design Pattern is a creational design pattern that focuses on
+constructing complex objects step by step.
+
+It separates the construction of an object from its representation,
+allowing the same construction process to create different representations.
+
+When to Use the Builder Pattern:
+The Builder Pattern is most useful in the following situations:
+
+Complex Object Construction: When an object needs numerous optional components or configurations,
+and a cluttered constructor isn’t practical.
+Multiple Representations: When you want to create various object representations using
+the same construction process.
+"""
+
 
 class SqlQuery:
     """ Product"""
